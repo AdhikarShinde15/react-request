@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
         {
-          Jokes.jokes
+          Jokes.jokes.map()
         }
     </>
   )
